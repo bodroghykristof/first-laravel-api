@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4a24cf1-dceb-49b3-a70f-bdba3bb4b9b2" name="Default Changelist" comment="" />
+    <list default="true" id="c4a24cf1-dceb-49b3-a70f-bdba3bb4b9b2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_05_100146_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_05_100146_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +24,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
     <include_path>
@@ -126,6 +143,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -164,17 +182,49 @@
       <updated>1609792477522</updated>
       <workItem from="1609792478623" duration="6430000" />
       <workItem from="1609835389679" duration="1927000" />
+      <workItem from="1609841012706" duration="5299000" />
     </task>
+    <task id="LOCAL-00001" summary="init: init project with a single Post model">
+      <created>1609841110841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609841110841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init: init project with a single Post model" />
+    <option name="LAST_COMMIT_MESSAGE" value="init: init project with a single Post model" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="72" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609842312265">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="72" y="84" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1609842312265" />
     <state x="429" y="262" width="570" height="277" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1609800048458">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="429" y="262" width="570" height="277" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/72.27.1294.741@72.27.1294.741" timestamp="1609800048458" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1609841895079">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/72.27.1294.741@72.27.1294.741" timestamp="1609841895079" />
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1609800078078">
       <screen x="72" y="27" width="1294" height="741" />
     </state>

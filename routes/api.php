@@ -1,5 +1,6 @@
 <?php
 
+use App\Post;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -22,15 +23,14 @@ use Illuminate\Support\Facades\Route;
 
 // CRUD
 // 1. get all (GET) /api/posts
-
-Route::get('/posts', function() {
-});
-
 // 2. add a single (POST) /api/posts
 // 3. get a single (GET) /api/posts/{id}
 // 4. update a single (PUT/PATCH) /api/posts/{id}
 // 5. delete a single (DELETE) /api/posts/{id}
 
+// Shorthand - generates all routes for CRUD operations
+
+Route::resource('posts', 'PostController');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
